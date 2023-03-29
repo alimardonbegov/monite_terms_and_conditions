@@ -1,24 +1,20 @@
 
+All of Monite’s intellectual property and usage rights (other than the License) in relation to the Product and the Monite Services, including the source code, databases, functionality, software, website designs, audio, video, text, photographs and graphics (“ IP Rights”), remain entirely with Monite.
 
-use such data and confidential information in any way (including in aggregated or anonymized form) other than in connection with providing the Monite Services to the Client, End Users and to their Users or in anonymized form in connection with analytics to improve the Monite Services or the Product;
-disclose, sell, assign, or otherwise provide such data and confidential information to any third party; or
-commercially exploit such data and confidential information in any way or manner.
-Without limiting the foregoing, no ownership rights in any data shall accrue to Monite by reason of entering, deleting, modifying or otherwise processing such data.
+Only Monite may exploit the IP Rights commercially and the Client has no rights whatsoever with regard to the software and the source code in connection with the Products and the Monite Services after the end of the contractual relationship.
 
-At all times during the term of the Monite Contract, Monite shall implement and maintain a data and IT security program with written policies and procedures that are consistent with best practices and designed and appropriate to protect the confidentiality and integrity of the Client’s, the End Users’ and their Users’ data and confidential information in compliance with all applicable laws. This IT security program shall contain technical and physical safeguards, appropriate to the type of information concerned, designed to:
-protect the security and confidentiality of such information;
-protect against any anticipated threats or hazards to the security or integrity of such information;
-protect against unauthorized access to or use of such information that could result in harm or inconvenience to the Client, the End Users or any of their Users; and
-appropriately dispose of such information in accordance with the Monite Contract.
+Monite may include software for use in connection with the Monite Services. If such software is accompanied by an ender user license agreement (“ EULA”), the terms of the EULA shall govern the Client’s use of this software. If such software is not accompanied by a EULA, then Monite grants to the Client a non-exclusive, revocable, personal and non-transferable license to use such software solely in connection with the Monite Services and in accordance with the Monite Contract. Any such software and any related documentation is provided “as is” without warranty of any kind.
 
-Monite shall notify the Client immediately by telephone or e-mail, if it becomes aware or has reason to believe that any of the following has occurred:
-any loss of user data or confidential information;
-any attempt to obtain unauthorized access to, disclosure of or use of user data or confidential information; or
-any attempt to alter or destroy user data or confidential information.
 
-If technical or legal conditions change, Monite reserves the right to change the practice described in the Monite T&Cs, Monite’s privacy policy and/or Monite’s IT security policy. The Client shall be informed of any changes in due time.
 
-Due to the fact that the Products and the Monite Services have dependencies on other services and sub-contractors, Monite is allowed to enter into sub-contracting relationships. Monite warrants that it will carefully select sub-contractors who will meet the requirements for the provision of the Services under this Agreement.
+
+
+
+
+
+
+
+
 
 
 
