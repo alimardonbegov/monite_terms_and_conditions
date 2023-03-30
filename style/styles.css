@@ -443,8 +443,12 @@ body {
   .center__title-element {
     font-size: 14px;
   }
+  .center__element-item:before {
+    width: 2.9em;
+  }
   .center__element-item {
     font-size: 14px;
+    margin-left: -1.6em;
   }
   .bottom {
     margin-left: 21px;
