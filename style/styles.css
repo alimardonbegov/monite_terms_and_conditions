@@ -286,8 +286,7 @@ body {
 }
 
 .center {
-  margin-left: 353px;
-  margin-right: 353px;
+  margin: 0 25em 0;
 }
 .center__download {
   margin-top: 142px;
@@ -379,13 +378,87 @@ body {
   margin-left: 3px;
 }
 
-ol {
-  list-style-type: none;
-  counter-reset: item;
+.bottom {
+  margin: 42px 25em 102px 20.25em;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom h4 {
+  /* H4 */
+  font-family: "Faktum";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+  color: #0a0a0a;
+}
+.bottom .center__download {
   margin: 0;
-  padding: 0;
 }
 
+@media screen and (max-width: 1300px) {
+  .center {
+    margin: 0 20em 0;
+  }
+  .bottom {
+    margin: 2em 10em 6em 10em;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .center {
+    margin: 0 12em 0;
+  }
+  .bottom {
+    margin: 2em 10em 6em 10em;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 0.6em;
+  }
+  .center {
+    margin: 0 10em 0;
+    font-size: 0.5em;
+  }
+  .bottom {
+    margin: 2em 10em 6em 10em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .center {
+    margin: 0 20px 0;
+  }
+  .center__download {
+    margin-top: 68px;
+  }
+  .center__header {
+    font-size: 26px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .center__title-element {
+    font-size: 14px;
+  }
+  .center__element-item {
+    font-size: 14px;
+  }
+  .bottom {
+    margin-left: 21px;
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom h4 {
+    font-size: 14px;
+  }
+  .bottom .center__download {
+    margin-top: 17px;
+    margin-bottom: 80px;
+  }
+}
 .mt-footer {
   padding: 70px 0 56px;
   background-color: #f1f2f5;
