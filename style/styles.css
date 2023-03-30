@@ -378,6 +378,14 @@ body {
   margin-left: 3px;
 }
 
+.double::before {
+  padding-right: 0.5em;
+}
+
+.double .center__element-item {
+  margin-left: -2.4em;
+}
+
 .bottom {
   margin: 42px 25em 102px 20.25em;
   display: flex;

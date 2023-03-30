@@ -89,7 +89,6 @@ body {
   &__element-item:before {
     content: counters(item, ".") " ";
     display: table-cell;
-
     color: #3c37ff;
     width: 4em;
   }
@@ -120,6 +119,14 @@ body {
       padding-left: 2px;
       margin-left: 3px;
     }
+  }
+}
+.double::before {
+  padding-right: 0.5em; //!расстояние между номером и контентом
+}
+.double {
+  .center__element-item {
+    margin-left: -2.4em;
   }
 }
 
