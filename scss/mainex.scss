@@ -59,7 +59,6 @@ body {
     content: counters(item, ".") ". ";
     display: table-cell;
     padding-right: 0.8em; //!расстояние между номером и контентом
-    margin-bottom: 24px;
   }
 
   &__title-element {
@@ -74,6 +73,8 @@ body {
     line-height: 140%;
     letter-spacing: -0.01em;
     color: #3c37ff;
+
+    margin-bottom: 24px;
   }
 
   // .center__element-list
@@ -81,7 +82,6 @@ body {
   &__element-list {
     list-style-type: none;
     counter-reset: item;
-    margin-top: 24px;
   }
 
   // .center__element-item
@@ -89,9 +89,7 @@ body {
   &__element-item:before {
     content: counters(item, ".") " ";
     display: table-cell;
-
-    color: #3c37ff;
-    width: 4em;
+    padding-right: 2em;
   }
 
   &__element-item {
@@ -104,9 +102,7 @@ body {
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.01em;
-    color: black;
 
-    margin-left: -2.2em;
     margin-bottom: 24px;
   }
 
@@ -121,13 +117,6 @@ body {
       margin-left: 3px;
     }
   }
-}
-
-ol {
-  list-style-type: none;
-  counter-reset: item;
-  margin: 0;
-  padding: 0;
 }
 
 @media screen and (max-width: 400px) {

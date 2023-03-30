@@ -322,7 +322,19 @@ body {
   text-align: left;
   margin-bottom: 40px;
 }
+.center__title-list {
+  list-style-type: none;
+  counter-reset: item;
+}
+.center__title-element:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.8em;
+  margin-bottom: 24px;
+}
 .center__title-element {
+  display: table;
+  counter-increment: item;
   list-style-position: outside;
   font-family: "Faktum";
   font-style: normal;
@@ -331,19 +343,29 @@ body {
   line-height: 140%;
   letter-spacing: -0.01em;
   color: #3c37ff;
-  padding-left: 13px;
-  margin-left: 25px;
-  margin-bottom: 24px;
+}
+.center__element-list {
+  list-style-type: none;
+  counter-reset: item;
+  margin-top: 24px;
+}
+.center__element-item:before {
+  content: counters(item, ".") " ";
+  display: table-cell;
+  color: #3c37ff;
+  width: 4em;
 }
 .center__element-item {
+  display: table;
+  counter-increment: item;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
   letter-spacing: 0.01em;
-  padding-left: 39px;
-  margin-left: 25px;
+  color: black;
+  margin-left: -2.2em;
   margin-bottom: 24px;
 }
 .center .par-ul {
@@ -355,6 +377,13 @@ body {
   list-style: disc;
   padding-left: 2px;
   margin-left: 3px;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
 }
 
 .mt-footer {
