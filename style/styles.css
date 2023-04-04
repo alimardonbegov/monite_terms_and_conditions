@@ -300,6 +300,7 @@ body {
   background-color: white;
   border-radius: 10px;
   border: 1px solid #dddddd;
+  cursor: pointer;
   font-family: "Satoshi";
   font-style: normal;
   font-weight: 500;
